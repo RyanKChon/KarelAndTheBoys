@@ -1,5 +1,5 @@
 body{
-  background-image: url('https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png'); /*Seeting the background image. Ypu can change this by changing the link!*/ 
+  background-image: url('https://media.istockphoto.com/photos/background-navy-blue-black-grunge-textured-abstract-stucco-concrete-picture-id1287121458?b=1&k=20&m=1287121458&s=170667a&w=0&h=fpITYs5xkVcmHk91kVRDullhDHhZ-f6QpEfTJCVYnSI='); /*Seeting the background image. Ypu can change this by changing the link!*/ 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body{
 
 /* for classes that we specify include a '.' before class name */
   .box1 {
-    border: 2px solid blue; /* px is unit of measurement in pixels */
+    border: 3px solid black; /* px is unit of measurement in pixels */
     border-radius: 10px;
     padding: 0rem 2rem 1rem 2rem;
     margin-bottom: 2.5rem;
@@ -67,7 +67,6 @@ h2 {
   font-size: 1.5vw;
 }
 
-
 p1 { 
    color: white;
 } 
@@ -101,5 +100,6 @@ p2 {
 
 
 .imgmar{
-  margin: 1.5%;
+  margin: 5%;
 }
+
