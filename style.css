@@ -75,6 +75,11 @@ p2 {
   color: white;
   font-size: 10px;
 }
+p3{
+   text-align:center
+color: white;
+  font-size: 30px;
+}
 
 .center {
   margin: auto;
@@ -101,5 +106,11 @@ p2 {
 
 .imgmar{
   margin: 1.5%;
+}
+.center{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
