@@ -40,7 +40,28 @@ body{
     margin: 0rem 0rem 1rem 0rem;
     color: white;
   }
-
+ .box3 { 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 7%;
+    color: white;
+  }
+ .box4 { 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 6.5%;
+    color: white;
+  }
+.box5 { 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 32%;
+  width: 50%;
+    color: white;
+  }
 .name {
   color: white;
   margin: 1rem 2rem;
@@ -77,8 +98,13 @@ p2 {
 }
 p3{
    text-align:center
-color: white;
+color:white;
   font-size: 30px;
+}
+p4{
+   text-align:center
+color:white;
+  font-size: 25px;
 }
 
 .center {

@@ -57,13 +57,13 @@
       <div class="interactive" id='interactive1' style='display: none'>
         
         <div class='box1'>
-          <br><br>
+          <br><br><br>
           <p3 class='box2'>
                                                                       
                                                                         CHALLENGE #1
                                                                         
             </p3>
-          <br><br>
+          <br><br><br><br>
          
             <img src = 'https://lh3.googleusercontent.com/Z2FvYxBfK1kGw1H2vIcLL4XiFghJTpACqOKQ5elKNY297K5S-nDhXQkPJAChKntebbwhb_PJ_nymHvbIJAC1OARwrbH32ClYObxkXcePIW7uglSvX_0C34yIksptjoh63TUzZNzR=w400' class='imgmar'>
             <img src = 'https://lh3.googleusercontent.com/dZzUFY-4VjXzh9mcXIOyRixgpUTiJ7ofV8mq3-QjB4YEEDEfU2ltFVaYqOsum6l55niebNl6IhpyzVw7UFyz6MOpMLg6HEd-i00OX4OzYrpDFjuYRXHGX6wFY2FMjWRWqm5rt5Ry=w400' class='imgmar'>
@@ -72,10 +72,19 @@
            
          
             <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+              <br><br><br>
           
-            <p2> 
-            </p2>
-            <br><br>
+            <p4 class = 'box3'> 
+              PID Controller
+            </p4>
+           <p4 class = 'box4'> 
+              Photoresistor Board
+          </p4>
+                 <p4 class = 'box3'> 
+              Motor Shield/Driver
+          </p4>
+            
+            <br><br><br><br><br>
          
           <p class='box2'>
             Comments on output? 
@@ -99,8 +108,11 @@
             </p3>
           <br><br>
             <img src = 'https://lh3.googleusercontent.com/_XYo3VGkqCdzmF0liwl1yBoJYesRGTqLORIFn6I9-1FUDqtXiP2NPRq6RVxRIO81zlO8TXGet2yiqPwj3RXebh8MbaiY1k-leqKxiVHM1OKbz1VwAasZ8aeDJWhsv-TqpH9ulIeg=w800' class='center'>
-           
-             
+            <br><br><br>
+             <p3 class = 'box5'> 
+              Prototype Assembled Karel
+          </p3>
+               <br><br><br><br><br><br>
         </div> <!-- This is the end of div box1 -->
         <br>
 
@@ -128,7 +140,7 @@
             Explain what you have created, what functional modifications (need at least 2) 
             you made to the design and add a picture of your 3D printed chassis. 
             <br><br>
-            &emsp; We made a base to hold all of our robot parts in and we also made light shield to get more accurate readings on our photoresistors.
+            &emsp; We made a base on the original chassis to hold all of our robot parts in and we also made light shield to get more accurate readings on our photoresistors.
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
@@ -154,7 +166,7 @@
           <p class='box2'>
             What is the purpose of the motor driver/shield?
             <br><br>
-            &emsp; Answer here...
+            &emsp; The motor shield is a PCB that can be attached the othe Arduino which all of our main componenets together: motors, 6AA battery pack, and the PID controller circuit.
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
@@ -179,7 +191,7 @@
             Challenge #7: Explain why you need to calibrate your photoresistor values. 
             What problem does this help solve and what problems do you still see coming from your photoresistors?  
             <br><br>
-            &emsp; Answer here...
+            &emsp; The calibration of the photoresistor values are needed to make sure that our robot can distinguish between black and white by recording the two values during the two calibration periods. These values are incorporated so it can follow the line alongside help with the PID controller
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
@@ -204,13 +216,12 @@
           <p class='box2'>
             What was the best PID values that you used? How well did this track? Any limitations?
             <br><br>
-            &emsp; Answer here...
-            <br><br><br>
+            &emsp; Answer here
             What does PID stand for?  What is the purpose of the P, the I, and the D?  
             What steps did you take to choose the best values for your robot? 
             Explain this like you would for someone taking this course next year.
             <br><br>
-            &emsp; Answer here...
+            &emsp; PID stands for proportional control, integral control, and derivative control. the proportional control takes the current error value and scales it in relation to your porportional gain in order to get the desired turn rate. Essentially what this means is that if you robot is veering off to the right, it will allow your motors to turn at a certain speed, in this instance the left slows down and the right speeds up, so that it realigns with the line that it was following. I is the integral control. The purpose of integral control is to take the sum of your past errors. After being multiplied by a greater error sum which will deal with small errors and inconsistencies. D is the derivitive control, which predicts and increase or decrease by taking the current error value and subtracting it from the last error value so that the turn rate will be changed beforehand, helping with sharp turns.
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
