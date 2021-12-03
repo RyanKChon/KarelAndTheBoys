@@ -44,14 +44,14 @@ body{
     border: 1px solid white;
     border-radius: 15px;
     padding: 1rem;
-    margin: 7.9%;
+    margin: 8%;
     color: white;
   }
  .Karelbox { 
     border: 1px solid white;
     border-radius: 15px;
     padding: 1rem;
-    margin: 14%;
+    margin: 10%;
     color: white;
   }
  .box4 { 
@@ -108,7 +108,7 @@ body{
     border-radius: 15px;
     padding: 1rem;
     margin: 12.5%;
-    margin-left: 14.5%;
+    
   color: white;
 }
 .box12 { 
@@ -188,7 +188,7 @@ color:white;
 
 
 .imgmar{
-  margin: 2%;
+  margin-left: 8%
 }
 .center{
 display: block;
@@ -205,13 +205,13 @@ display: block;
 .twoimgr
 {
 
-margin-left: 15%;
+margin-left: 18%;           
 }
 
 .im
 {
 
-margin-left: 7%;
+margin-left: 14%;
 
 }
 .centerbox
