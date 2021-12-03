@@ -1,228 +1,367 @@
-body{
-  background-image: url('https://media.istockphoto.com/photos/background-navy-blue-black-grunge-textured-abstract-stucco-concrete-picture-id1287121458?b=1&k=20&m=1287121458&s=170667a&w=0&h=fpITYs5xkVcmHk91kVRDullhDHhZ-f6QpEfTJCVYnSI='); /*Seeting the background image. Ypu can change this by changing the link!*/ 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: 0rem; /* see referance for how padding and margins apply */
-  font-family: Verdana, sans-serif; /*You can change the font here*/
-}  
+<html>
 
-.main {
-    background: rgb(27, 48, 47, 0.4); /* you can find the color combination online - google css color picker. The last value is the opacity */
-    margin: 1rem; /* see referance for how padding and margins apply */
-    padding: 2rem; /* see referance for how padding and margins apply */
-    font-size: 1rem; /* rem is unit of measurement relative to font-size of the root element */
-  }
+<html lang="en">
 
-.heading { /*top navigation bar*/
-    overflow: hidden;
-    padding: 0rem;
-    margin: 0rem;
-    background-image: linear-gradient(-45deg, #252d48 10%, #303e6a 50%, #27323d 100%);  
-}
-  
+  <head>
+    <meta charset="utf-8">
+    <title>ECE5 Lab 4</title> 
+    <meta name="description" content="sketchbook">
+    <meta name="author" content="sketchbook">
+    <link rel="stylesheet" href="style.css"> <!-- this imports the CSS file. do not remove -->
+  </head>
 
-/* for classes that we specify include a '.' before class name */
-  .box1 {
-    border: 3px solid black; /* px is unit of measurement in pixels */
-    border-radius: 10px;
-    padding: 0rem 2rem 1rem 2rem;
-    margin-bottom: 2.5rem;
-    color: white; /*text color*/
-    background: rgb(46, 46, 46, 0.6);/* you can find the color combination online - google css color picker. The last value (0.6) is the opacity */
-  }
-
-  .box2 { 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 0rem 0rem 1rem 0rem;
-    color: white;
-  }
- .box3 { 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 9%;
-    color: white;
-  }
- .Karelbox { 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 10%;
-    color: white;
-  }
- .box4 { 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 6.5%;
-    color: white;
-  }
-.box5 { 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 33%;
-    color: white;
-  }
-.box6 { 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 14.3%;
-  color: white;
-}
-.box7 { 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 2.5%;
-  color: white;
-}
-.box9 { 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 2.5%;
-  color: white;
-}
-.box10 { 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 17.5%;
-  color: white;
-}
-.Karel{ 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 39.5%;
-  color: white;
-}
-.box8 { 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 12.5%;
+  <body>
     
-  color: white;
-}
-.box12 { 
-    border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
-    margin: 10%;
-
-  color: white;
-}
-.name {
-  color: white;
-  margin: 1rem 2rem;
-  float: left;
-}
-
-.pId {
-  color: white;
-  margin: 1rem 2rem;
-  float: right;
-}
-
- h1 { 
-   color: white;
-   text-align: center;
-   padding: 2rem ;
-   margin: auto;
-   width: 50%;
-   font-size: 1.75vw;
-}
-
-h2 {
-  color: white;
-  font-size: 1.5vw;
-}
-
-p1 { 
-   color: white;
-} 
-
-p2 {
-  color: white;
-  font-size: 10px;
-}
-p3{
-   text-align:center
-color:white;
-  font-size: 30px;
-}
-p4{
-   text-align:center
-color:white;
-  font-size: 25px;
-}
-
-.center {
-  margin: auto;
-  width: 35%;
-}
-
-.btn {
-  text-align: center;
-  font-size: 0.9vw;
-  border-radius: 15px;
-  padding: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  width: 100%;
-  background-color: rgb(255,255,255); /*you can change color by changing the HEX code*/
-}
-
-.btn:hover {
-  box-shadow: 6px 8px #636363;
-  cursor: pointer;
-  font-weight: bold;
-}
+<!--   *********************  HEADING START *********************   --> 
+    
+    <div class="heading">
+      <h3 class='name'>Ryan Chon <br> Anton Del-Mar<br>Thien Huynh<br> Yash Ketharam </h3> 
+      <h3 class=pId>PID: A16904434 <br> PID: A16728417 <br>PID: A16925994 <br>PID: A16837433 </h3>
+            
+      <h1>KarelAndTheBoys Website</h1> <!-- h1 is heading 1 -->
+    </div>
+    
+<!--   *********************  HEADING END *********************   --> 
+    
+<!--   ////////////////////////////////////////////////////////////////////////////////////////////////   --> 
 
 
-.imgmar{
-  margin-left: 8%
-}
-.center{
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.center1{
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-.twoimgr
-{
-
-margin-left: 18%;           
-}
-
-.im
-{
-
-margin-left: 14%;
-
-}
-.centerbox
-{
-
-  margin:39.5%;
-  
- width: 50%;
-border: 1px solid white;
-    border-radius: 15px;
-    padding: 1rem;
+<!--   *********************  INTRO START *********************   --> 
+    
+    <section class="main">
+      <h2> Objective</h2>
+      <p1>Begin building the skills needed to work as a teem in order to use all we have learned over the year to make a robot.</p1> 
+      
+      <br><br>
+      
+      <p1>Enter image of your poster below and then delete this line line of code</p1> 
+      
+      <br><br>
+      
+      <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
+       
+      <br><br>
+<!--   *********************  INTRO END *********************   --> 
+      
+<!--   ////////////////////////////////////////////////////////////////////////////////////////////////   --> 
  
-  color: white;
-}
+      
+<!--   *********************  BUTTONS START *********************   -->
+      
+<!----------------------------------------  BUTTON 1 ---------------------------------------->
+      
+      <div class='center'>
+        <button type='button' onclick="toggleText1()" class="btn">Challenges #1 & #2</button>
+      </div> <!--end of div class center -->
+      
+      <div class="interactive" id='interactive1' style='display: none'>
+        
+        <div class='box1'>
+          <br><br><br>
+          <p3 class='box2'>
+                                                                      
+                                                                        CHALLENGE #1
+                                                                        
+            </p3>
+          <br><br><br><br>
+         
+            <img src = 'https://lh3.googleusercontent.com/Z2FvYxBfK1kGw1H2vIcLL4XiFghJTpACqOKQ5elKNY297K5S-nDhXQkPJAChKntebbwhb_PJ_nymHvbIJAC1OARwrbH32ClYObxkXcePIW7uglSvX_0C34yIksptjoh63TUzZNzR=w350' class='imgmar'>
+            <img src = 'https://lh3.googleusercontent.com/dZzUFY-4VjXzh9mcXIOyRixgpUTiJ7ofV8mq3-QjB4YEEDEfU2ltFVaYqOsum6l55niebNl6IhpyzVw7UFyz6MOpMLg6HEd-i00OX4OzYrpDFjuYRXHGX6wFY2FMjWRWqm5rt5Ry=w350' class='imgmar'>
+    
+          <img src = 'https://lh3.googleusercontent.com/cJ3mwkETwCL5FeMDEbyP4xI7SPAK42ezF5lOVIopvPbEG8vvfn1TwBuLUwCjGQazGi6hwVRxazrOjVd8h35_zIGnqkg8fq-tUkEdgk6PTuUdKcUVLajqXxXtBxpwxdQ61futUL8P=w350' class='imgmar'>
+           
+         
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+              <br><br><br>
+          
+            <p4 class = 'box3'> 
+              PID Controller
+            </p4>
+           <p4 class = 'box4'> 
+              Photoresistor Board
+          </p4>
+                 <p4 class = 'box3'> 
+              Motor Shield/Driver
+          </p4>
+            
+            <br><br><br><br><br>
+         
+          <p class='box2'>
+            Comments on output? 
+            What range of values did your potentiometer output? 
+            Did Turning your potentiometer clockwise increase or decrease the value?
+            <br><br>
+            &emsp; The Range of the Potentiometer was 0 - 100. When turned clockwise the value increases and when turned counter clockwise, the value decreases.
+            <br><br><br> 
+            What range of values did your photo resistors output for a white surface and for a black surface?
+            <br><br>
+            &emsp; On a white surface: 500 <br>
+            &emsp;        On a black surface: 870
+          </p> <!-- p is paragraph -->
+          <br>
+          <br>
+          <br>
+          <p3 class='box2'>
+                                                                      
+                                                                        CHALLENGE #2
+                                                                        
+            </p3>
+          <br><br>
+            <img src = 'https://lh3.googleusercontent.com/_XYo3VGkqCdzmF0liwl1yBoJYesRGTqLORIFn6I9-1FUDqtXiP2NPRq6RVxRIO81zlO8TXGet2yiqPwj3RXebh8MbaiY1k-leqKxiVHM1OKbz1VwAasZ8aeDJWhsv-TqpH9ulIeg=w800' class='center'>
+            <br><br><br>
+             <p3 class = 'box5'> 
+              Prototype Assembled Karel
+          </p3>
+               <br><br><br><br><br><br>
+        </div> <!-- This is the end of div box1 -->
+        <br>
+
+      </div> <!-- This is the end of div interactive -->
+      
+<!----------------------------------------  BUTTON 2 ---------------------------------------->
+        
+      <div class ='center'> <!-- we put the buton in a container to center it -->
+        <button type='button' onclick="toggleText2()" class="btn">Challenge #3 & #4</button>
+      </div> <!--end of div class center -->
+      
+      <div class="interactive" id='interactive2' style='display: none'>
+        <div class='box1'>
+          <br>
+          
+            <img src = 'https://lh3.googleusercontent.com/ecIHey0LZYmsZzti5PrJdPcUc6ZKKIZ5ViwzKKpVkek4YJSwM3NKXUGbPxN6n4A3Pbj9hmx7P2s6-iWvQdLUDPwHRUNO9GziGkYFqkFtK5ZEw16XE45BXMfT4k8R5qGd4wRtMTHhLw=w450' class='im'>
+            <img src = 'https://lh3.googleusercontent.com/WkeoadbtXcgaSrYHc5ChNvVfQCeHJzSEkbQfg9bKNFT5aLr3VtTEXC3iOkJLtp8nlgGz8hWrmyeDiDyVklVWKYTwAZaDCX1Rcd3BrBukZHZrfa9ydENxGM2dw5RIa7qLVFBVuaOLVA=w450' class='im'>
+          
+          <br><br><br><br>
+          <p3 class = 'box6'>
+        Chassis with addition 
+            </p3>
+          <p3 class = 'box8'>
+        Light Shield 
+            </p3>
+          <br><br>
+          
+          <br><br><br>
+          <img src = 'https://lh3.googleusercontent.com/tX9KrrFPJx-1rAIXLzaYlVBIcfn8gt61In49MHMCkj0JdUFdLcO7ukLDqWVcmSVYbGY_ECSB97uuDZVjXrnMamRtEmQ0judu3j9iTp4KEzRwkuRRyECkr2qfjgwcpZOZ8boHo5gREg=w350' class='center1'>
+            <br><br>
+           <p3 class = 'centerbox'>
+        3D Printed Chassis
+            </p3><br><br>
+          
+          <br>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+            <br>
+            <p2>IMG1 Add a screenshot of your solidworks chasis model <br> 
+              IMG2 Add picture of your 3D printed chasis</p2>
+            <br><br>
+          
+          <p class='box2'>
+            Explain what you have created, what functional modifications (need at least 2) 
+            you made to the design and add a picture of your 3D printed chassis. 
+            <br><br>
+            &emsp; We made an extension to on the original chassis in the front and the back to hold all of our robot parts in and we also made light shield to get more accurate readings on our photoresistors.
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+<!----------------------------------------  BUTTON 3 ---------------------------------------->
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText3()" class="btn">Challenge #3 & #4</button>
+      </div> <!--end of div class center -->
+      
+      <div class="interactive" id='interactive3' style='display: none'>
+        <div class='box1'>
+          <br>
+          
+            <img src = 'https://lh3.googleusercontent.com/88uhP6CY7Bz-nP2ihYmGjQOOIQD9EH2_K99vQOh9TPM7IJWYEwMFRW8yoAjzJ6mOqQX0Uo2vn7JRF3niLbByMbT_L8bmt0OWLeCO25abbOpecW5Z4vktvHZ7Hlf_muWZohJ0w9Pl=w350' class='twoimgr'>
+            <img src = 'https://lh3.googleusercontent.com/cJ3mwkETwCL5FeMDEbyP4xI7SPAK42ezF5lOVIopvPbEG8vvfn1TwBuLUwCjGQazGi6hwVRxazrOjVd8h35_zIGnqkg8fq-tUkEdgk6PTuUdKcUVLajqXxXtBxpwxdQ61futUL8P=w350' class='twoimgr'>
+          <br><br><br><br>
+           <p3 class = box10>
+             Completed Robot
+             
+              </p3>
+          <p3 class = box9>
+            Soldered Motor Shield
+          </p3>
+          <br>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+    
+            
+              </p2>
+            <br><br>
+          
+          <p class='box2'>
+            What is the purpose of the motor driver/shield?
+            <br><br>
+            &emsp; The motor shield is a PCB that can be attached the othe Arduino which all of our main componenets together: motors, 6AA battery pack, and the PID controller circuit.
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+<!----------------------------------------  BUTTON 4 ----------------------------------------> 
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText4()" class="btn">Challenge #6 & #7</button>
+      </div> <!--end of div class center -->
+            
+      <div class="interactive" id='interactive4' style='display: none'>
+        <div class='box1'>
+          <br>
+          
+              <img src = 'https://lh3.googleusercontent.com/5js0vsSepXyHSkwAJZR4dmf1UxIeq9K2fcUhKFBxVlgKH9chfZAFXqxFIekzN9Lek-k7TNcr-U8Sxqv9zM5AmpXP_jBoc3f2MgyxON8NWQ0nxmVfcAFxyCi4YQU-aVhAZ3GJEE8hZw=w350' class='imgmar'>
+            <img src = 'https://lh3.googleusercontent.com/88uhP6CY7Bz-nP2ihYmGjQOOIQD9EH2_K99vQOh9TPM7IJWYEwMFRW8yoAjzJ6mOqQX0Uo2vn7JRF3niLbByMbT_L8bmt0OWLeCO25abbOpecW5Z4vktvHZ7Hlf_muWZohJ0w9Pl=w350' class='imgmar'>
+    
+          <img src = 'https://lh3.googleusercontent.com/XfbWIG9DKQb7MqH8EWEySeWGlRTDGOKnLuJTEqaiTzU7OtMFig9aM9UscIRm8FWjM5FtwSc9n7bUoDO3aTtPgfVmN3pPuoMx54e_IP277dcqC0CRRib_k-5bxp-Rqcj0yL3Yz3S8Mg=w350' class='imgmar'>
+           <br><br>
+          
+            <p4 class = 'box3'> 
+              Chassis Additions
+            </p4>
+           <p4 class = 'Karelbox'> 
+              Karel
+          </p4>
+                 <p4 class = 'box12'> 
+             Light Shield
+          </p4>
+            <br>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+            <br>
+            <p2>IMG1 Add a picture of your fully assembled robot with all components and circuitry</p2>
+           <br><br>
+          
+          <p class='box2'>
+            Challenge #7: Explain why you need to calibrate your photoresistor values. 
+            What problem does this help solve and what problems do you still see coming from your photoresistors?  
+            <br><br>
+            &emsp; The calibration of the photoresistor values are needed to make sure that our robot can distinguish between black and white by recording the two values during the two calibration periods. These values are incorporated so it can follow the line alongside help with the PID controller
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+<!----------------------------------------  BUTTON 5 ---------------------------------------->
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText5()" class="btn">Challenge #8</button>
+      </div> <!--end of div class center -->
+            
+      <div class="interactive" id='interactive5' style='display: none'>
+        <div class='box1'>
+          <br>
+          
+         
+            <img src = 'https://lh3.googleusercontent.com/88uhP6CY7Bz-nP2ihYmGjQOOIQD9EH2_K99vQOh9TPM7IJWYEwMFRW8yoAjzJ6mOqQX0Uo2vn7JRF3niLbByMbT_L8bmt0OWLeCO25abbOpecW5Z4vktvHZ7Hlf_muWZohJ0w9Pl=w400' class='center1'>
+    <br><br>
+            <p4 class = 'Karel'> 
+             Fully Assembled Karel
+          </p4>
+            <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+            <br><br><br><br>
+            <p2>IMG1 Add a picture of your robot following a line 
+              (please also attach any updated video to your submission under the video tab)</p2>
+            <br><br> 
+          
+          <p class='box2'>
+            What was the best PID values that you used? How well did this track? Any limitations?
+            <br><br>
+            &emsp; Answer here
+            What does PID stand for?  What is the purpose of the P, the I, and the D?  
+            What steps did you take to choose the best values for your robot? 
+            Explain this like you would for someone taking this course next year.
+            <br><br>
+            &emsp; PID stands for proportional control, integral control, and derivative control. the proportional control takes the current error value and scales it in relation to your porportional gain in order to get the desired turn rate. Essentially what this means is that if you robot is veering off to the right, it will allow your motors to turn at a certain speed, in this instance the left slows down and the right speeds up, so that it realigns with the line that it was following. I is the integral control. The purpose of integral control is to take the sum of your past errors. After being multiplied by a greater error sum which will deal with small errors and inconsistencies. D is the derivitive control, which predicts and increase or decrease by taking the current error value and subtracting it from the last error value so that the turn rate will be changed beforehand, helping with sharp turns.
+          </p> <!-- p is paragraph -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+<!----------------------------------------  BUTTON 6 ---------------------------------------->
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText6()" class="btn">Video</button>
+      </div> <!--end of div class center -->
+      
+      <div class="interactive" id='interactive6' style='display: none'>
+        <div class='box1'>
+          <br>
+          <p class='box2'>
+            Insert a video of your robot in action!
+          </p> <!-- p is paragraph -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/X6-p0fIwTaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+<!--   *********************  BUTTONS END *********************   --> 
+      
+<!--   ////////////////////////////////////////////////////////////////////////////////////////////////   --> 
+      
+    </section>
+    <!-- This is the end of our section -->
+
+  </body>
+  
+<!--   ////////////////////////////////////////////////////////////////////////////////////////////////   --> 
+
+<!--   *********************  JAVASCRIPT CODE *********************   -->
+  
+  <script>
+    function toggleText1(text) {
+      var text = document.getElementById("interactive1");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+
+    function toggleText2(text) {
+      var text = document.getElementById("interactive2");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+    function toggleText3(text) {
+      var text = document.getElementById("interactive3");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+    function toggleText4(text) {
+      var text = document.getElementById("interactive4");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+    
+    function toggleText5(text) {
+      var text = document.getElementById("interactive5");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+    
+    function toggleText6(text) {
+      var text = document.getElementById("interactive6");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+
+  </script>
+
+</html>
+
+
+<!--add poster (outside) and video tabs / tab of team photo, tab of team logo-->
