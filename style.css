@@ -44,7 +44,14 @@ body{
     border: 1px solid white;
     border-radius: 15px;
     padding: 1rem;
-    margin: 7%;
+    margin: 7.9%;
+    color: white;
+  }
+ .Karelbox { 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 14%;
     color: white;
   }
  .box4 { 
@@ -61,6 +68,57 @@ body{
     margin: 33%;
     color: white;
   }
+.box6 { 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 14.3%;
+  color: white;
+}
+.box7 { 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 2.5%;
+  color: white;
+}
+.box9 { 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 2.5%;
+  color: white;
+}
+.box10 { 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 17.5%;
+  color: white;
+}
+.Karel{ 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 39.5%;
+  color: white;
+}
+.box8 { 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 12.5%;
+    margin-left: 14.5%;
+  color: white;
+}
+.box12 { 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 10%;
+
+  color: white;
+}
 .name {
   color: white;
   margin: 1rem 2rem;
@@ -130,7 +188,7 @@ color:white;
 
 
 .imgmar{
-  margin: 1.5%;
+  margin: 3.4%;
 }
 .center{
 display: block;
@@ -147,5 +205,24 @@ display: block;
 .twoimgr
 {
 
-margin: 7%;
+margin-left: 15%;
+}
+
+.im
+{
+
+margin-left: 7%;
+
+}
+.centerbox
+{
+
+  margin:39.5%;
+  
+ width: 50%;
+border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+ 
+  color: white;
 }
