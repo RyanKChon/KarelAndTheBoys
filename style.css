@@ -44,7 +44,14 @@ body{
     border: 1px solid white;
     border-radius: 15px;
     padding: 1rem;
-    margin: 7%;
+    margin: 7.5%;
+    color: white;
+  }
+.box31 { 
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1.5%;
     color: white;
   }
  .Karelbox { 
@@ -58,7 +65,7 @@ body{
     border: 1px solid white;
     border-radius: 15px;
     padding: 1rem;
-    margin: 6.5%;
+    margin: 7.5%;
     color: white;
   }
 .box5 { 
